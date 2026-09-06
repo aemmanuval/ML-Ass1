@@ -48,8 +48,4 @@ Run all cells sequentially. The notebook generates `submission.csv` and all plot
 
 ## Evaluation Metric
 
-**RMSLE** (Root Mean Squared Logarithmic Error):
-
-```
 RMSLE = sqrt( (1/n) * Σ (log(pred+1) - log(actual+1))² )
-```
